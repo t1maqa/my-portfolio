@@ -1,0 +1,64 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timur Akhmetov</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<body>
+    <br>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/t1maqa.png' %}">
+                    <hr>
+                    <h4>Hi, I'm Timur!</h4>
+                    <p>I love learning software development</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h4>My new career</h4>
+                    <p>After an unsuccessful visa process when I already had one foot in England to study for a master's degree at the University
+                         of Nottingham, I decided not to despair and began learning programming.</p>
+                    <p>Since then I found myself in back-end development of stack of Python & Django. Now I am aspiring developer
+                         and looking forward to relaunch my career in SWE!</p>
+
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+    </div>   
+</body>
+</html>
